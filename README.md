@@ -96,8 +96,6 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 | ip a | Display IP Address | ip a |
 | ping | Host Ping  | ping google.com |
 | hostname | Display Hostname | hostname |
-| ss -tuln | Listening Port দেখায় | ss -tuln |
-
 
 ---
 
