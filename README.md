@@ -32,14 +32,14 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 
 | Command | Description         | Example |
 |---------|---------------------|---------|
-| `pwd` | বর্তমান ডিরেক্টরি দেখায় | `pwd` |
-| `ls` | ফাইল ও ফোল্ডারের তালিকা দেখায় | `ls` |
-| `ls -l` | বিস্তারিত তালিকা দেখায় | `ls -l` |
-| `ls -la` | Hidden ফাইলসহ তালিকা দেখায় | `ls -la` |
-| `cd` | অন্য ডিরেক্টরিতে প্রবেশ করে | `cd Documents` |
-| `cd ..` | এক ধাপ পিছনে যায় |`cd ..` |
-| `cd ~` | Home Directory-তে যায় | cd ~ |
-| `tree` | Folder Tree দেখায় | `tree` |
+| pwd | Current Directory | pwd |
+| ls | Display File And Folder List | ls |
+| ls -l | Display Details List | ls -l |
+| ls -la | Display Hidden files and list | ls -la |
+| cd | Diretory change | cd Documents |
+| cd .. | 1 Step Back |cd .. |
+| cd ~ | Home Directory- From any where | cd ~ |
+| tree | Diplay Folder Tree  | tree |
 
 ---
 
@@ -47,13 +47,13 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `touch` | নতুন ফাইল তৈরি করে | `touch test.txt` |
-| `mkdir` | নতুন Folder তৈরি করে | `mkdir Project` |
-| `cp` | Copy করে | cp a.txt b.txt |
-| `mv` | Move বা Rename করে | mv old.txt new.txt` |
-| `rm` | File Delete করে | rm file.txt |
-| `rm -r` | Folder Delete করে | rm -r folder |
-| `find` | File খুঁজে বের করে | find . -name file.txt |
+| touch |new balck file create | touch test.txt |
+| mkdir | New Directory/Folder Create | mkdir Project |
+| cp | Copy  | cp Bayezid.txt bbayezid2.txt |
+| mv | Move And Rename | mv Bayezid.txt new.txt |
+| rm | Remove File | rm bayezid2.txt |
+| rm -r | Remove Folder | rm -r folder |
+| find | find any file | find . -name file.txt |
 
 ---
 
@@ -61,10 +61,10 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `nano` | Nano Editor চালু করে | `nano file.txt` |
-| `vim` | Vim Editor চালু করে | `vim file.txt` |
-| `cat` | File Content দেখায় | `cat notes.txt` |
-| `less` | বড় File পড়ে | `less log.txt` |
+| nano | Nano Editor | nano bayezid1.txt |
+| vim | Start Vim Editor | vim bayezid1.txt |
+| cat | Display File Content  | cat bayezid1.txt |
+| less | Long File Read | lessbayezid1.txt |
 
 ---
 
@@ -72,9 +72,9 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `chmod +x` | Execute Permission দেয় | `chmod +x script.sh` |
-| `chmod 755` | Permission পরিবর্তন করে | `chmod 755 file` |
-| `chown` | Owner পরিবর্তন করে | `sudo chown user file` |
+| chmod +x | Give Execute Permission | chmod +x script.sh |
+| chmod 755 | Change Permissions | chmod 755 file |
+| chown  | Owner change | sudo chown user file |
 
 ---
 
@@ -82,10 +82,10 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `whoami` | বর্তমান User দেখায় | `whoami` |
-| `id` | User ID দেখায় | `id` |
-| `passwd` | Password পরিবর্তন করে | `passwd` |
-| `sudo` | Admin হিসেবে Command চালায় | `sudo apt update` |
+| whoami | Display Current User  | whoami |
+| id | Display User ID | id |
+| passwd | Change Password  | passwd |
+| sudo | Run Command as a Admin | sudo apt update |
 
 ---
 
@@ -93,10 +93,10 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `ip a` | IP Address দেখায় | `ip a` |
-| `ping` | Host Ping করে | `ping google.com` |
-| `hostname` | Hostname দেখায় | `hostname` |
-| `ss -tuln` | Listening Port দেখায় | `ss -tuln` |
+| ip a | Display IP Address | ip a |
+| ping | Host Ping  | ping google.com |
+| hostname | Display Hostname | hostname |
+| ss -tuln | Listening Port দেখায় | ss -tuln |
 
 
 ---
@@ -105,11 +105,11 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `sudo apt update` | Package List Update | `sudo apt update` |
-| `sudo apt upgrade` | Package Upgrade | `sudo apt upgrade` |
-| `sudo apt install` | Package Install | `sudo apt install tree` |
-| `sudo apt remove` | Package Remove | `sudo apt remove tree` |
-| `sudo apt autoremove` | Unused Package Remove | `sudo apt autoremove` |
+| sudo apt update | Package List Update | sudo apt update |
+| sudo apt upgrade | Package Upgrade | sudo apt upgrade |
+| sudo apt install | Package Install | sudo apt install tree |
+| sudo apt remove | Package Remove | sudo apt remove tree |
+| sudo apt autoremove | Unused Package Remove | sudo apt autoremove |
 
 ---
 
@@ -126,24 +126,20 @@ Beginner Friendly • Bangla Explanation • Practical Examples
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `clear` | Terminal পরিষ্কার করে | `clear` |
-| `history` | Command History | `history` |
-| `alias` | Shortcut তৈরি করে | `alias ll='ls -la'` |
-| `echo` | Text Print করে | `echo Hello` |
-| `man` | Manual দেখায় | `man ls` |
+| clear | Terminal clear | clear |
+| history | Command History | history |
+| echo | Print Text  | echo Hello |
+| man | Disolay Manual | man ls |
 
 ---
 
 # 🎯 Goal
 
-এই Repository-তে ধাপে ধাপে Linux ও Kali Linux-এর গুরুত্বপূর্ণ Command,  Description এবং Practical Example যোগ করা হবে।
+This repository will be updated step by step with essential Linux and Kali Linux commands, their descriptions, and practical examples.
 
 ---
 
-## ⭐ Support
-
-যদি Repository টি ভালো লাগে তাহলে একটি **⭐ Star** দিতে ভুলবেন না।
-
+##
 ---
 
 <div align="center">
